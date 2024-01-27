@@ -1,6 +1,6 @@
 {
-    "name": "tranduckhanh/shop-ban-sach",
-    "description": "Họ và tên: Trần Đức Khánh, Mã sinh viên: 2122110588, Lớp: CCQ2211N",
+    "name": "",
+    "description": "",
     "autoload": {
         "psr-4": {
             "App\\": "application"
@@ -12,7 +12,5 @@
     ]
     },
     "require": {
-        "illuminate/database": "^10.39",
-        "illuminate/events": "^10.39"
     }
 }
