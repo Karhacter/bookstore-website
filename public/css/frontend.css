@@ -1,0 +1,257 @@
+:root
+{
+    --text-main:#25A2B4;
+    --bg-main: #25A2B4;
+}
+
+.bg-main
+{ 
+   line-height:10px;
+    background-color: var(--bg-main);
+    color:white;
+}
+.text-main
+{
+    color:var(--text-main);
+}
+.btn-main
+{
+   background-color:var(--bg-main);
+   color:white;
+}
+.btn-main:hover
+{
+   border: 1px solid #25A2B4;
+   color:#25A2B4;
+}
+/*hdl-header*/
+.box-cart {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #25A2B4;
+    position: relative;
+ }
+
+ .box-cart i {
+    font-size: 26px;
+    color:#25A2B4;
+ }
+
+ .box-cart span {
+    position: absolute;
+    right: -13px;
+    top: 0px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #25A2B4;
+    line-height: 25px;
+    font-size: 14px;
+    color: white;
+ }
+
+ .call-login--register ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+ }
+
+ .call-login--register ul li {
+    display: inline-block;
+ }
+
+ .call-login--register ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 90%;
+ }
+/*hdl-mainmenu*/
+.list-category strong {
+    line-height: 50px;
+    display: block;
+    color: white;
+ }
+
+#navbarSupportedContent ul {
+   margin-left: 20s0px;
+   font-size: large;
+}
+
+#navbarSupportedContent li {
+   margin-left: 30px;
+}
+
+.hdl-slideshow {
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+.list-category strong{
+   font-size: 20px;
+   margin-left: 50px;
+}
+
+/*hdl-maincontent*/
+.product-item .product-item-image {
+    overflow: hidden;
+    position: relative;
+ }
+
+ .product-item .product-item-image img {
+    transition: 0.5s;
+ }
+
+ /* .product-item .product-item-image #img2 {
+    position: absolute;
+    left: -100%;
+ }
+
+ .product-item .product-item-image:hover #img2 {
+    transform: translateX(100%);
+ }
+*/
+ .product-item:hover  {
+   background-color: lightgoldenrodyellow;
+   color: white;
+   opacity: 1;
+ }
+
+ .product-item .product-item-name a {
+    color: #25A2B4;
+    text-decoration: none;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+ }
+
+ .product-item .product-item-name a:hover {
+   -webkit-line-clamp: unset;
+    text-decoration: underline;
+ }
+ .hdl-lastpost h3.post-title a {
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+ }
+
+ .hdl-lastpost h3.post-title a:hover {
+    color: rgb(177, 169, 169);
+ }
+ ul.list-category li a,ul.list-brand li a,ul.list-page li a
+ {
+   color:#25A2B4;
+   text-decoration: none;
+   transition: 0.5s;
+ }
+ ul.list-category li a:hover,ul.list-brand li a:hover,ul.list-page li a:hover
+ {
+   text-shadow: 0px 0px 2px red;
+ }
+
+.list-group-item div{
+   margin: 10px;
+}
+/*hdl-footer*/
+
+.kc-fb-layout-3 {
+   display: flex;
+}
+
+.content-icon {
+   float: left;
+   margin-right: 10px;
+   margin-top: 30px;
+   padding: 0;
+}
+
+.content-desc {
+   margin-top: 30px;
+   padding: 0;
+   float: left;
+}
+
+.hdl-footer
+{
+    background-color: rgba(0,0,0,0.9);
+    color:white;
+    height: 350px;
+}
+
+.hdl-footer p, .hdl-footer a
+{
+    color:white;
+}
+.hdl-footer ul.footer-menu 
+{
+    padding: 0px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.footer-menu li {
+   margin-top: 10px;
+}
+
+ul.footer-icon {
+   list-style: none;
+   padding-left: 0;
+   margin-top: 20px;
+}
+
+.hdl-footer ul.footer-menu a
+{
+    display: block;
+    padding:4px 0px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.hdl-footer ul.footer-menu a:hover
+{
+    color:wheat;
+}
+.hdl-footer h3.widgettilte
+{
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+}
+.hdl-footer h3.widgettilte::after
+{
+    content:"";
+    border:2px solid #5d5c5c;
+    position:absolute;
+    bottom:-10px;
+    left:0;
+    width: 30%;
+}
+.hdl-footer h3.widgettilte strong
+{
+    border-bottom: 2px solid white;
+}
+.social .facebook-icon,
+.social .instagram-icon,
+.social .google-icon,
+.social .youtube-icon
+{
+   margin-top: 20px;
+}
+
+.error {
+   border-radius: 50%;
+   text-align: center;
+   font-family: sans-serif;
+   margin: 0;
+   padding: 20px;
+   text-align: center;
+   font-size: 2em;
+   margin-bottom: 20px;
+   line-height: 1.5;
+   color: #007bff;
+   text-decoration: none;
+}
